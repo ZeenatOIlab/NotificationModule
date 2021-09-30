@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/simpleNotiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Notification"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+    <Button
+        android:id="@+id/PendingIntentNotiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pending Intent Notification"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
+        android:id="@+id/tapactionNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap Action  Notification"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+    <Button
+        android:id="@+id/actionNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Action  Notification"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+    <Button
+        android:id="@+id/progressNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="progress bar  Notification"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+    <Button
+        android:id="@+id/bigPictureNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Big Picture  Notification"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+    <Button
+        android:id="@+id/inboxStyleNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inbox Style Notification"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+    <Button
+        android:id="@+id/replyNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reply Notification"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+    <Button
+        android:id="@+id/handsUpNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hands Up Notification"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+
+
+</LinearLayout>
